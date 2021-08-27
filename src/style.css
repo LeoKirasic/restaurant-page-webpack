@@ -18,9 +18,10 @@ ul {
 	flex-grow: 0;
 	flex-shrink: 0;
 }
-.content {
+#content-container #content {
     width: 300px;
     border-style: solid;
     border-color: red;
     text-align: center;
+    color: red;
 }

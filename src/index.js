@@ -1,2 +1,6 @@
 import css from './style.css';
-console.log('Webpack up and running!');
+import { loadHomePage } from './home';
+import { loadMenuPage } from './menu';
+import { loadAboutPage } from './about';
+
+loadAboutPage();
