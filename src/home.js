@@ -1,7 +1,6 @@
-
 const loadHomePage = () => {
 
- const mainDiv = document.querySelector('#main');
+const mainDiv = document.querySelector('#main');
 
 const contentContainer = document.createElement('div');
 contentContainer.id = 'content-container';
